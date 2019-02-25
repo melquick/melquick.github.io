@@ -1777,12 +1777,16 @@
 	.inner {
 		max-width: 75em;
 		margin: 0 auto;
+		background-image: url(../../images/background.jpg);
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
 	}
 
 		@media screen and (max-width: 1280px) {
 
 			.inner {
-				max-width: 90%;
+				max-width: 100%;
 			}
 
 		}
@@ -1790,7 +1794,7 @@
 		@media screen and (max-width: 480px) {
 
 			.inner {
-				max-width: 90%;
+				max-width: 100%;
 			}
 
 		}
