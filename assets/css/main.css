@@ -44,6 +44,7 @@
 	  margin: auto; 
 	  min-width: 50%;
 	  min-height: 50%;
+	  z-index: -1;
 	}
 
 	ol, ul {
@@ -2969,6 +2970,14 @@
 			line-height: 1em;
 			margin: 0 0 1em 0;
 			padding: 0;
+			font-family: "Modern Sans";
+		}
+		
+		#banner h2 {
+			font-size: 2.5em;
+			font-weight: 400;
+			color: #fff;
+			font-family: "Modern Sans";
 		}
 
 		#banner h3 {
