@@ -9,6 +9,13 @@
 */
 
 /* Reset */
+	@font-face {
+	  font-family: 'ModerneSans';
+		src: url('assets/fonts/modern_sans.ttf')  format('truetype'), /* Safari, Android, iOS */
+		url('assets/fonts/modern_sans.woff') format('woff'), /* Modern Browsers */
+		url('assets/fonts/modern_sans.woff2') format('woff2'), /* Modern Browsers */
+	}
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -33,6 +40,8 @@
 	  left: -50%; 
 	  width: 200%; 
 	  height: 200%;
+	  z-index: -50;
+	  opacity: 0.5;
 	}
 	
 	#bg img {
@@ -44,7 +53,7 @@
 	  margin: auto; 
 	  min-width: 50%;
 	  min-height: 50%;
-	  z-index: -1;
+	  z-index: -50;
 	}
 
 	ol, ul {
@@ -2970,14 +2979,14 @@
 			line-height: 1em;
 			margin: 0 0 1em 0;
 			padding: 0;
-			font-family: "Modern Sans";
+			font-family: "ModerneSans";
 		}
 		
 		#banner h2 {
 			font-size: 2.5em;
 			font-weight: 400;
 			color: #fff;
-			font-family: "Modern Sans";
+			font-family: "ModerneSans";
 		}
 
 		#banner h3 {
