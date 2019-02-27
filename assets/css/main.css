@@ -27,6 +27,10 @@
 		line-height: 1;
 	}
 	
+	html {
+		scroll-behavior:smooth;
+	}
+	
 	#bg {
 	  position: fixed; 
 	  top: -50%; 
@@ -1830,6 +1834,12 @@
 	section.wrapper, article.wrapper {
 		padding: 3em 0;
 	}
+	
+	section.border {
+		padding: 1em 0;
+		background-color:#8dcca9;
+		opacity:0.5;
+	}
 
 		section.wrapper header, article.wrapper header {
 			margin-bottom: 4em;
@@ -2744,7 +2754,7 @@
 	#header {
 		color: #fff;
 		cursor: default;
-		height: 3.25em;
+		height: 2em;
 		left: 0;
 		line-height: 3.25em;
 		position: absolute;
@@ -2771,6 +2781,12 @@
 			position: absolute;
 			top: 0;
 			font-size: 1em;
+		}
+		
+		#header .icon {
+			color: #ffffff;
+			font-size: 1em;
+			margin-right: 0.2em;
 		}
 
 			#header .logo strong {
@@ -2953,7 +2969,7 @@
 /* Banner */
 
 	#banner {
-		padding: 2em 0 2em 0;
+		padding: 3em 0 3em 0;
 		background-image: url(../../images/banner.jpg);
 		background-size: cover;
 		background-position: bottom;
@@ -3062,7 +3078,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 2em 0 2em 0;
+				padding: 3em 0 3em 0;
 			}
 
 				#banner .inner {
@@ -3087,7 +3103,7 @@
 
 			#banner {
 				background-attachment: scroll;
-				padding: 2em 0 2em 0;
+				padding: 3em 0 3em 0;
 			}
 
 				#banner .inner {
@@ -3112,7 +3128,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 2em 0 2em 0;
+				padding: 3em 0 3em 0;
 			}
 
 				#banner .inner {
