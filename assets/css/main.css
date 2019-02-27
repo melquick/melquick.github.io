@@ -2759,7 +2759,8 @@
 		line-height: 3.25em;
 		position: absolute;
 		text-align: right;
-		top: 2em;
+		top: 0em;
+		margin: 0 0 0 -1.5em;
 		width: 100%;
 		z-index: 10001;
 	}
@@ -2785,7 +2786,7 @@
 		
 		#header .icon {
 			color: #ffffff;
-			font-size: 1em;
+			font-size: 1.2em;
 			margin-right: 0.2em;
 		}
 
@@ -3222,8 +3223,5 @@
 			}
 
 		}
-		
-		#projects h1 {
-			color: #FFF;
-		}
+
 		
