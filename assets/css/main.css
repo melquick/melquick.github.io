@@ -31,6 +31,10 @@
 		scroll-behavior:smooth;
 	}
 	
+	.entry-content p br {
+			display: block;
+	}
+	
 	#bg {
 	  position: fixed; 
 	  top: -50%; 
@@ -2873,6 +2877,10 @@
 		#header {
 			font-size: .9em;
 		}
+		
+		#header .icon {
+			font-size: 2.5em;
+		}
 
 	}
 
@@ -3172,8 +3180,20 @@
 
 		@media screen and (max-width: 480px) {
 
+			#banner {
+				padding: 5em 0 3em 0;
+			}
+			
 			#banner h1 {
 				font-size: 3em;
+			}
+			
+			#banner h2 {
+					font-size: 2em;
+			}
+			
+			#banner .icon {
+				font-size: 4em;
 			}
 
 		}
