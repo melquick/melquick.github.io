@@ -3062,11 +3062,11 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 7em 0 6em 0;
+				padding: 2em 0 2em 0;
 			}
 
 				#banner .inner {
-					padding-top: 6em;
+					padding-top: 2em;
 				}
 
 				#banner h1 {
@@ -3087,11 +3087,11 @@
 
 			#banner {
 				background-attachment: scroll;
-				padding: 5em 0 4em 0;
+				padding: 2em 0 2em 0;
 			}
 
 				#banner .inner {
-					padding-top: 4em;
+					padding-top: 2em;
 				}
 
 				#banner h1 {
@@ -3112,11 +3112,11 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 4em 0 3em 0;
+				padding: 2em 0 2em 0;
 			}
 
 				#banner .inner {
-					padding-top: 3em;
+					padding-top: 2em;
 				}
 
 				#banner h1 {
