@@ -31,9 +31,6 @@
 		scroll-behavior:smooth;
 	}
 	
-	.entry-content p br {
-			display: block;
-	}
 	
 	#bg {
 	  position: fixed; 
@@ -1900,7 +1897,7 @@
 		@media screen and (max-width: 480px) {
 
 			section.wrapper article, article.wrapper article {
-				text-align: center;
+			
 			}
 
 		}
@@ -1977,7 +1974,7 @@
 		@media screen and (max-width: 480px) {
 
 			.flex.flex-2 br {
-				display: none;
+	
 			}
 
 		}
