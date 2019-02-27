@@ -2034,7 +2034,7 @@
 		border-radius: 10px;
 		border: none;
 		border: solid 2px #8dcca9;
-		color: #fff;
+		color: #000000;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -3181,7 +3181,7 @@
 /* Footer */
 
 	#footer {
-		padding: 2em 0;
+		padding: 1em 0;
 		background: #2b3252;
 		color: #fff;
 		text-align: center;
@@ -3194,6 +3194,7 @@
 		
 		#footer h2 {
 			color: #FFF;
+			margin: 0 0 0 0;
 		}
 		
 		#footer h1 {
